@@ -1,7 +1,13 @@
 #include<iostream>
+using namespace std;
 int main()
 {
-    std::cout<<"Hello,Testing github krub:)";
-    std::cout<<"Tum Dai Leaw krub:)";
+    float i=2,sum=0;
+    while(i!=69)
+    {
+        sum=sum+(1/i);
+        i++;
+    }
+    cout << sum;
     return 0;
 }
